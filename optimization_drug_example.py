@@ -116,5 +116,20 @@ print(f"Newton's Method - Optimal Lisinopril Effect: {opt_effect_lisinopril_nm*1
 opt_dose_escitalopram_nm, opt_effect_escitalopram_nm = newtons_method(escitalopram, x0=1.0)
 print(f"Newton's Method - Optimal Escitalopram Dose: {opt_dose_escitalopram_nm:.2f} mg")
 print(f"Newton's Method - Optimal Escitalopram Effect: {opt_effect_escitalopram_nm}")
+# Plot optimal points
+plt.scatter(opt_dose_metformin, opt_effect_metformin, color='blue')
+plt.scatter(opt_dose_lisinopril, opt_effect_lisinopril, color='orange')
+plt.scatter(opt_dose_escitalopram, opt_effect_escitalopram, color='green')
+metformin_lambda = 1.0
+
+plt.show()
+plt.show()
+max_iter = 10
+
+
 
 # %%
+#What happens when lamda increases? - Optimal dose shifts lower
+#Which converges faster? - Newton's method usually converges faster (2nd derivative)
+#What happens if max_iter smaller? - Dose estimate less accurate
+#Which drug should you pick? - Lisinopril gives highest net effect but at higher toxicity risk; Metformin provides strong benefit with safer toxicity, making it best compromise.
