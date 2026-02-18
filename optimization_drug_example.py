@@ -1,5 +1,4 @@
-# drug efficacy optimization example for BME 2315
-# made by Lavie, fall 2025
+
 
 #%% import libraries
 import numpy as np
