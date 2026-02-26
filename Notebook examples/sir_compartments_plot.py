@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load in-class SIR data
-data = pd.read_csv("Data/in_class_SIR_activity.csv")
+data = pd.read_csv("Data/mystery_virus_daily_active_counts_RELEASE#1.csv")
 
 # Convert columns to numeric just in case
 for col in data.columns:
