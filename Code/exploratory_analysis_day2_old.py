@@ -54,4 +54,5 @@ plt.ylabel("Active Reported Daily Cases")
 plt.legend()
 plt.show()
 
-# %%
+# What viruses have a similar R0? Use the viruses.html file to find a virus or 2 with a similar R0 and give a 1-2 sentence background of the diseases.
+# How accurate do you think your R0 estimate is?
