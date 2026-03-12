@@ -98,6 +98,10 @@ peak_day = t_proj_days[peak_idx]
 peak_cases = I_proj[peak_idx]
 
 print(f"--- Results ---")
+print("Best beta:", b_opt)
+print("Best sigma:", s_opt)
+print("Best gamma:", g_opt)
+print("Estimated E0:", e0_opt)
 print(f"Minimum SSE: {min_sse:.2f}")
 print(f"Predicted Peak Day: Day {peak_day}")
 print(f"Predicted Peak Active Cases: {int(peak_cases)} cases")
