@@ -96,7 +96,7 @@ plt.show()
 peak_idx = np.argmax(I_proj)
 peak_day = t_proj_days[peak_idx]
 peak_cases = I_proj[peak_idx]
-
+ 
 print(f"--- Results ---")
 print(f"Minimum SSE: {min_sse:.2f}")
 print(f"Predicted Peak Day: Day {peak_day}")
