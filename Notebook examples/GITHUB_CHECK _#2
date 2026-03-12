@@ -96,7 +96,7 @@ plt.show()
 peak_idx = np.argmax(I_proj)
 peak_day = t_proj_days[peak_idx]
 peak_cases = I_proj[peak_idx]
-
+ 
 print(f"--- Results ---")
 print("Best beta:", b_opt)
 print("Best sigma:", s_opt)
